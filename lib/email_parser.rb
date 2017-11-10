@@ -6,6 +6,7 @@ class EmailParser
   attr_accessor :email
 
   def parse(string)
-    string.tr(",", "").split(" ").each {|email| @email = email}
+    string.tr(",", "").split(" ")
+    
   end
 end
