@@ -11,7 +11,7 @@ class EmailParser
   end
 
   def self.parse
-    self.tr(",", "").split(" ").each {|email| }
+    self.tr(",", "").split(" ")
     self.all
   end
 end
